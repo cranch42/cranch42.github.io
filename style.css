@@ -9,7 +9,7 @@ body {
   /* limit width */
   line-height: 1.5;
   padding-bottom: 32px;
-  background-color: white;
+  background-color: #050505;
 }
 
 video {
@@ -20,7 +20,7 @@ video {
   left: 0;
   padding: 0;
   margin: 0;
-  height: 100vh;
+  width: 100vw;
   z-index: -1;
 }
 
@@ -75,7 +75,7 @@ h1 {
 
 h2 {
   font-size: 32px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 8px;
 }
 
@@ -92,6 +92,7 @@ h3 {
 #footer {
   margin-top: 64px;
   text-align: center;
+  opacity: 0.3;
 }
 
 /* END */
