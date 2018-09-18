@@ -9,11 +9,13 @@
 </head>
 
 <body>
-  <video muted autoplay loop>
-    <!-- <source src="bg-vid.mp4" type="video/mp4" /> -->
+  <video id="bg-video" muted autoplay loop>
     <source src="media/video-bg.mov" type="video/mp4" />
     Video not supported.
   </video>
+  <button id="btn-play" onclick="myFunction()"></button>
+
+  <!-- <button id="btn-play" onclick="myFunction()"></button> -->
   <main class="container">
     <div id="header">
       <h1>Алексей Примадонин</h1>
@@ -60,6 +62,7 @@
       <p>ул. Полевая, 12, Астрахань, Россия <span>+7 999 99 99</span>, <a href="mailto:ap@somemail.com">ap@somemail.com</a></p>
     </div>
   </main>
+  <script src="play.js"></script>
 </body>
 
 </html>
