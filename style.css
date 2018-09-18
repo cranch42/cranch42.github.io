@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: Georgia;
   font-size: 16px;
   margin: 0;
@@ -7,13 +10,24 @@ body {
   line-height: 1.5;
   padding-bottom: 32px;
 }
-.vid video {
+video {
   /* margin: 0 auto;
   max-width: 800px; */
-
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: aquamarine;
+  z-index: -1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 /* BEGIN (write your solution here) */
 p {
