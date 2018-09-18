@@ -10,6 +10,7 @@ body {
   line-height: 1.5;
   padding-bottom: 32px;
 }
+
 video {
   /* margin: 0 auto;
   max-width: 800px; */
@@ -19,6 +20,7 @@ video {
   width: 100vw;
   height: 100vh;
   z-index: -1;
+  opacity: 0.5;
 }
 
 .container {
@@ -26,8 +28,9 @@ video {
   flex-direction: column;
   align-items: center;
   max-width: 800px;
+  padding: 30px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 /* BEGIN (write your solution here) */
 p {
