@@ -9,6 +9,7 @@ body {
   /* limit width */
   line-height: 1.5;
   padding-bottom: 32px;
+  background-color: white;
 }
 
 video {
@@ -17,10 +18,10 @@ video {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  padding: 0;
+  margin: 0;
   height: 100vh;
   z-index: -1;
-  opacity: 0.5;
 }
 
 .container {
@@ -29,10 +30,36 @@ video {
   align-items: center;
   max-width: 800px;
   padding: 30px;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.5);
+  margin: 25px auto;
+  border-radius: 10px;
+  background-color: #feffff;
+  color: darkslategray;
 }
-/* BEGIN (write your solution here) */
+
+a {
+  text-decoration: none;
+}
+.links a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lightslategray;
+  border-radius: 5px;
+  color: aliceblue;
+  margin: 0 10px;
+}
+
+.links a:hover {
+  background-color: aliceblue;
+  color: lightslategray;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.links a:active {
+  background-color: aliceblue;
+  color: black;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
 p {
   margin-bottom: 12px;
 }
