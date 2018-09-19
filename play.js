@@ -1,5 +1,5 @@
-var video = document.getElementById("bg-video");
-var btn = document.getElementById("btn-play");
+var video = document.querySelector(".bg-video");
+var btn = document.querySelector(".btn-play");
 
 function myFunction() {
   if (video.paused) {
@@ -9,7 +9,6 @@ function myFunction() {
     btn.style.backgroundImage = "url('media/btn-play.svg')";
   } else {
     video.pause();
-    btn.style.backgroundColor = "lightcoral";
     btn.classList.add("btn-stop");
     btn.style.backgroundImage = "url('media/btn-stop.svg')";
   }

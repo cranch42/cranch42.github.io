@@ -15,7 +15,7 @@ body {
   background-color: #050505;
 }
 
-#btn-play {
+.btn-play {
   position: fixed;
   right: 5%;
   bottom: 5%;
@@ -33,13 +33,13 @@ body {
   opacity: 0.3;
 }
 
-#btn-play:hover,
+.btn-play:hover,
 .btn-stop:hover {
   opacity: 1;
 }
 
-#btn-play:active,
-#btn-play:focus,
+.btn-play:active,
+.btn-play:focus,
 .btn-stop:active,
 .btn-stop:focus {
   outline: 0;
@@ -47,7 +47,7 @@ body {
 }
 
 
-#bg-video {
+.bg-video {
   /* margin: 0 auto;
   max-width: 800px; */
   position: fixed;
