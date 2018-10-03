@@ -1,7 +1,7 @@
 var video = document.querySelector(".bg-video");
 var btn = document.querySelector(".btn-play");
 
-function myFunction() {
+function setBtn() {
   if (video.paused) {
     video.play();
     btn.style.backgroundColor = "lightslategray";
